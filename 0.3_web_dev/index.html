@@ -24,7 +24,7 @@ including but not limited to the HTML files, CSS files, and JavaScript files. An
         width="50"
         height="50"
       />
-      <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+      <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
     </header>
     <img
       src="./img/post-img.jpg"
@@ -91,20 +91,22 @@ including but not limited to the HTML files, CSS files, and JavaScript files. An
       <ul>
         <li><img src="./img/related-1.jpg" alt="Man typing on a laptop." height="75" width="75">
           <a href="#">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img src="./img/related-2.jpg" alt="Lightning Bolt" height="75" width="75">
           <a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img src="./img/related-3.jpg" alt="Some Code on a Screen" height="75" width="75">
           <a href="#">Why JavaScript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
-    <footer><p>Copyright &copy; 2027 by the code Magazine.</p></footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by the code Magazine.</p>
+    </footer>
   </body>
 </html>
