@@ -1,9 +1,14 @@
 html {
-  background-color: rgb(109, 109, 109);
+  background-color: rgb(207, 207, 207);
 }
 
 h1, h2, h3, h4, p, li{
   font-family: sans-serif;
+  color: #444;
+}
+
+h1, h2, h3 {
+  color: #1098ad;
 }
 
 h1 {
@@ -57,4 +62,56 @@ li {
 .related-author {
   font-size: 18px;
   font-weight: bold;
+}
+
+.related
+ {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+/* .first-li{
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(odd){
+  /* color:red; */
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  /* color: #777; */
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
